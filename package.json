@@ -1,0 +1,16 @@
+{
+  "name": "CV",
+  "version": "1.0.0",
+  "description": "My personal webpage",
+  "main": "index.js",
+  "repository": "https://github.com/tomaszgrabowski/CV.git",
+  "author": "Tomasz Grabowski",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
