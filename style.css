@@ -10,6 +10,8 @@ html,body{
   display: table;
   background-size: cover;
   position: relative;
+  color: white;
+  text-align: center;
 }
 h1,h2,h5{
   font-family: 'Russo One', sans-serif;
@@ -33,4 +35,20 @@ nav li{
   float: left;
   font-size: 2.4rem;
   margin-right: .4rem;
+}
+.hero{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  text-shadow: .2rem .2rem .5rem black;
+}
+.hero h1{
+  font-size: 6rem;
+}
+.hero hr{
+  border-top: .2rem solid white;
+}
+.hero .btn-primary{
+  margin-top: 2rem;
 }
