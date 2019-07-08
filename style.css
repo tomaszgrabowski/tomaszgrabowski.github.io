@@ -56,6 +56,8 @@ section{
   font-size: 6rem;
   border: .2rem solid white;
   padding: 1.8rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   margin-bottom: 2rem;
 }
 .hero h2{
@@ -64,7 +66,7 @@ section{
 .hero hr{
   border-top: .2rem solid white;
 }
-.hero .btn-primary{
+.hero .btn{
   margin-top: 2rem;
 }
 .about{
@@ -112,17 +114,30 @@ section{
 .fa-css3-alt{
   color: #0F5298;
 }
+.resume{
+  background-color: #34495e;
+  color: white;
+}
 footer{
   position: relative;
   top: -1rem;
   background-color: #2c3e50;
   color: white;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+footer ul{
+  padding:0;
+  margin:0;
 }
 footer li{
   display: inline;
   list-style-type: none;
+  margin-left:2rem;
+  margin-right: 2rem;
+}
+.resume h5{
+  color: #e74c3c;
 }

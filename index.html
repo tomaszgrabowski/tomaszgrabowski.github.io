@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Roboto+Mono|Russo+One&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -55,10 +54,11 @@
     </div>
   </nav>
   <section class="landing container-fluid">
-    <div class="hero d-none d-lg-block">
-      <h1>Tomasz Grabowski</h1>
+    <div class="hero d-none d-md-block">
+      <h1>Developer</h1>
       <h2>WWW, Frontend, .Net (Core)</h2>
-      <button class="btn btn-lg btn-primary">Contact me!</button>
+      <button class="btn btn-lg btn-danger">Contact me!</button>
+      <button class="btn btn-lg btn-outline-light">Resume</button>
     </div>
   </section>
   <section class="about container-fluid">
@@ -127,7 +127,81 @@
       </div>
     </div>
   </section>
-  <footer class="footer">
+  <section class="contact container">
+    <h2 class="header">Contact</h2>
+    <form>
+      <div class="form-group">
+        <label for="contact-email">Email address</label>
+        <input type="email" class="form-control" id="contact-email" aria-describedby="emailHelp"
+          placeholder="Enter email...">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <div class="form-group">
+          <label for="contact-text"></label>
+          <textarea class="form-control" name="contact-text" id="contact-text" rows="3"
+            placeholder="Place a message here..."></textarea>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </section>
+  <section class="resume container-fluid">
+    <h2 class="header">Resume</h2>
+    <div class="container">
+      <ul>
+        <li>
+          <h5>
+            IHS Markit sp. z.o o.
+          </h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero soluta suscipit. Voluptas quas
+            doloribus
+            sed
+            fugit, repudiandae commodi ipsum laudantium rem officia vel voluptatem, quasi eveniet maxime, eos amet?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quibusdam id fuga repellendus, quam quo
+            adipisci voluptates quis vero quidem, molestiae iure error natus consequuntur rem explicabo quae consectetur
+            expedita?</p>
+        </li>
+        <li>
+          <h5>
+            IHS Markit sp. z.o o.
+          </h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero soluta suscipit. Voluptas quas
+            doloribus
+            sed
+            fugit, repudiandae commodi ipsum laudantium rem officia vel voluptatem, quasi eveniet maxime, eos amet?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quibusdam id fuga repellendus, quam quo
+            adipisci voluptates quis vero quidem, molestiae iure error natus consequuntur rem explicabo quae consectetur
+            expedita?</p>
+        </li>
+        <li>
+          <h5>
+            IHS Markit sp. z.o o.
+          </h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero soluta suscipit. Voluptas quas
+            doloribus
+            sed
+            fugit, repudiandae commodi ipsum laudantium rem officia vel voluptatem, quasi eveniet maxime, eos amet?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quibusdam id fuga repellendus, quam quo
+            adipisci voluptates quis vero quidem, molestiae iure error natus consequuntur rem explicabo quae consectetur
+            expedita?</p>
+        </li>
+        <li>
+          <h5>
+            IHS Markit sp. z.o o.
+          </h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vero soluta suscipit. Voluptas quas
+            doloribus
+            sed
+            fugit, repudiandae commodi ipsum laudantium rem officia vel voluptatem, quasi eveniet maxime, eos amet?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio quibusdam id fuga repellendus, quam quo
+            adipisci voluptates quis vero quidem, molestiae iure error natus consequuntur rem explicabo quae consectetur
+            expedita?</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer class="footer align-bottom">
     <ul>
       <li><i class="fab fa-facebook"></i></li>
       <li><i class="fab fa-twitter"></i></li>
