@@ -143,6 +143,9 @@ footer li{
   margin-left:2rem;
   margin-right: 2rem;
 }
+.footer a{
+  color: white;
+}
 .resume h5{
   color: #e74c3c;
 }
