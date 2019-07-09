@@ -152,7 +152,7 @@
             placeholder="Place a message here..."></textarea>
         </div>
       </div>
-      <button type="submit" disabled class="btn btn-primary">Send</button>
+      <a href="#contact" class="btn btn-primary send-email">Send</a>
     </form>
   </section>
   <section id="resume" class="resume container-fluid">
@@ -262,5 +262,29 @@
     </ul>
   </footer>
 </body>
+<script>
+  $(".send-email").click(() => {
+    console.log("clicked");
+    var email = $("#contact-email").val();
+    var text = $("#contact-text").val();
+    fetch("https://mailthis.to/tomaszgrabowski07@gmail.com", {
+      method: 'POST',
+      mode: 'cors',
+      cache: 'no-cache',
+      credentials: 'same-origin',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      redirect: 'follow',
+      referrer: 'no-referrer',
+      body: JSON.stringify({
+        email: email,
+        temat: 'Message from personal webpage',
+        wiadomosc: text
+      }
+      )
+    }).then(()=>location.href = 'https://mailthis.to/confirm');
+  });
+</script>
 
 </html>
