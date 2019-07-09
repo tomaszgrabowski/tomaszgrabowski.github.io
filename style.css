@@ -55,9 +55,7 @@ section{
 .hero h1{
   font-size: 6rem;
   border: .2rem solid white;
-  padding: 1.8rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 6rem;
   margin-bottom: 2rem;
 }
 .hero h2{
@@ -84,8 +82,7 @@ section{
   padding-bottom: 1rem;
 }
 .about-text{
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 2rem !important;
 }
 .technologies{
   background-color: #ecf0f1;
@@ -113,6 +110,9 @@ section{
 }
 .fa-css3-alt{
   color: #0F5298;
+}
+.contact form{
+  margin-bottom: 4rem;
 }
 .resume{
   background-color: #34495e;
