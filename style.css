@@ -118,6 +118,9 @@ section{
   background-color: #34495e;
   color: white;
 }
+.resume li{
+  margin-bottom: 1rem;
+}
 footer{
   position: relative;
   top: -1rem;
