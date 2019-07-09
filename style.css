@@ -51,13 +51,13 @@ section{
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  text-shadow: .2rem .2rem .5rem black;
 }
 .hero h1{
   font-size: 6rem;
   border: .2rem solid white;
   padding: 4rem;
   margin-bottom: 2rem;
+  text-shadow: .2rem .2rem .5rem black;
 }
 .hero h2{
   font-family: 'Montserrat', sans-serif;
@@ -67,6 +67,7 @@ section{
 }
 .hero .btn{
   margin-top: 2rem;
+  text-shadow: 0;
 }
 .about{
   color: #222;
