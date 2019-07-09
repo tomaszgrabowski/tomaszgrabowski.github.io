@@ -3,6 +3,7 @@ html,body{
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   color: #222;
+  scroll-behavior: smooth;
 }
 .landing{
   background: url("./img/landscape-4316683_1920.jpg") no-repeat center center fixed;
