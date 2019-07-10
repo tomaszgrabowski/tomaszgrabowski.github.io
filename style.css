@@ -95,7 +95,7 @@ section{
 .technologies .fab{
   font-size: 8rem;
 }
-.technologies .fas{
+.technologies .fas, .technologies .far{
   color: #f1c40f;
 }
 .technologies .row div{
